@@ -12,12 +12,12 @@
 <body>
     <!-- Header -->
     <nav class="container-header top">
-        <div class="item-header logo"><img src="img/logo_white.png" alt="logo"></div>
-        <div class="item-header">Beranda</div>
-        <div class="item-header">Tentang</div>
-        <div class="item-header">Menu</div>
-        <div class="item-header">Reservasi</div>
-        <div class="item-header search"><img src="img/icon_search.png" alt="search"></div>
+        <a class="item-header logo"><img src="img/logo_white.png" alt="logo"></a>
+        <a class="item-header" href="index.html">Beranda</a>
+        <a class="item-header" href="tentang.html">Tentang</a>
+        <a class="item-header" href="menu.html">Menu</a>
+        <a class="item-header" href="reservasi.html">Reservasi</a>
+        <a class="item-header search"><img src="img/icon_search.png" alt="search"></a>
         </div>
     </nav>
 
@@ -46,33 +46,47 @@
     <!-- Menu Item -->
     <div class="container">
         <div class="menu">
-            <div class="item-menu">
-                <img src="img/icon_nasi.png" alt="nasi">
-                <h4>Nasi</h4>
-            </div>
-            <div class="item-menu">
-                <img src="img/icon_lauk.png" alt="nasi">
-                <h4>Lauk</h4>
-            </div>
-            <div class="item-menu">
-                <img src="img/icon_lalap.png" alt="nasi">
-                <h4>Lalap</h4>
-            </div>
-            <div class="item-menu">
-                <img src="img/icon_sambal.png" alt="nasi">
-                <h4>Sambal</h4>
-            </div>
-            <div class="item-menu">
-                <img src="img/icon_teh.png" alt="nasi">
-                <h4>Teh</h4>
-            </div>
-            <div class="item-menu">
-                <img src="img/icon_kopi.png" alt="nasi">
-                <h4>Kopi</h4>
-            </div>
+            <a href="menu.html#nasi">
+                <div class="item-menu">
+                    <img src="img/icon_nasi.png" alt="nasi">
+                    <h4>Nasi</h4>
+                </div>
+            </a>
+            <a href="menu.html#lauk">
+                <div class="item-menu">
+                    <img src="img/icon_lauk.png" alt="nasi">
+                    <h4>Lauk</h4>
+                </div>
+            </a>
+            <a href="menu.html#sambal-dan-lalapan">
+                <div class="item-menu">
+                    <img src="img/icon_lalap.png" alt="nasi">
+                    <h4>Lalap</h4>
+                </div>
+            </a>
+            <a href="menu.html#sambal-dan-lalapan">
+                <div class="item-menu">
+                    <img src="img/icon_sambal.png" alt="nasi">
+                    <h4>Sambal</h4>
+                </div>
+            </a>
+            <a href="menu.html#minuman-dingin">
+                <div class="item-menu">
+                    <img src="img/icon_teh.png" alt="nasi">
+                    <h4>Teh</h4>
+                </div>
+            </a>
+            <a href="menu.html#minuman-panas">
+                <div class="item-menu">
+                    <img src="img/icon_kopi.png" alt="nasi">
+                    <h4>Kopi</h4>
+                </div>
+            </a>
 
             <div>
-                <button class="btn-order"><h3>BUAT PESANAN</h3></button>
+                <a href="reservasi.html">
+                    <button class="btn-order" onclick=""><h3>BUAT PESANAN</h3></button>
+                </a>
             </div>
         </div>
     </div>
@@ -80,7 +94,11 @@
     <!-- Footer -->
     <div class="container">
         <div class="footer">
-            <h3>BOTRAM CAFE & RESTO</h3>
+            <p>Follow us</p>
+            <img class="footer-instagram" src="img/icon_instagram.svg" alt="Instagram">
+            <p>Jl. Surya Kencana No.29, Selabatu, Kec. Cikole<br>Kota Sukabumi, Jawa Barat 43114</p>
+            <p class="footer-copyright">&copy;2022 by BOTRAM RESTO & CAFE</p>
+            <img class="logo-bottom" src="img/logo_white.png">
         </div>
     </div>
 </body>
