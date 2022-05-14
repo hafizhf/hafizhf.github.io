@@ -119,21 +119,21 @@ a {
 }
 
 .item-header {
-    margin: 30px 40px;
+    margin: 20px 40px 0 40px;
 }
-/* 
+
 .item-header p {
-    vertical-align: middle;
-    align-items: center;
-    margin: 50% 0;
-} */
+    /* vertical-align: middle;
+    align-items: center; */
+    margin-top: 2.5vh;
+}
 
 .logo {
     width: 100%;
 }
 
 .logo img {
-    width: 90px;
+    width: 75px;
 }
 
 .search img {
@@ -199,7 +199,7 @@ a {
 }
 
 .hero-text {
-    padding: 0 25vh 0 22vh;
+    padding: 0 30vh 0 22vh;
     color: var(--text-color);
 }
 
@@ -354,7 +354,7 @@ a {
     text-align: center;
     color: var(--main-color);
     margin-top: -200px;
-    padding-top: 190px;
+    padding-top: 215px;
     padding-bottom: 200px;
     background-color: var(--secondary-color);
     background-image: url(../img/background.png);
@@ -694,11 +694,11 @@ img.hero-tentang {
     text-align: center;
     color: var(--main-color);
     margin-top: -200px;
-    padding-top: 190px;
-    padding-bottom: 50px;
+    padding-top: 215px;
+    padding-bottom: 200px;
     background-color: var(--secondary-color);
     background-image: url(../img/background.png);
-    background-size: 130%;
+    background-size: 138%;
     background-repeat: no-repeat;
     background-position: left 590px;
     background-blend-mode: luminosity;
@@ -708,7 +708,7 @@ img.hero-tentang {
     background-color: var(--main-color);
     /* height: 100px; */
     width: 110vh;
-    margin: -4px auto 60px auto;
+    margin: -4px auto 80px auto;
     color: white;
     text-align: left;
     padding: 30px 60px 60px 60px;
@@ -723,9 +723,11 @@ img.hero-tentang {
     margin-bottom: 20px;
 }
 
-img.map-our-location {
-    width: 100vh;
-    border-radius: 40px;
+.map-our-location {
+    position: relative;
+    width: 600px;
+    height: 450px;
+    /* border-radius: 40px; */
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
 }
 
