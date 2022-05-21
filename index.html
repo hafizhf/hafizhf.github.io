@@ -13,18 +13,30 @@
     <!-- Header -->
     <nav class="container-header top">
         <a class="item-header logo"><img src="img/logo_white.png" alt="logo"></a>
-        <a class="item-header" href="index.html">
-            <p>Beranda</p>
-        </a>
-        <a class="item-header" href="tentang.html">
-            <p>Tentang</p>
-        </a>
-        <a class="item-header" href="menu.html">
-            <p>Menu</p>
-        </a>
-        <a class="item-header" href="reservasi.html">
-            <p>Reservasi</p>
-        </a>
+        <div class="item-header active">
+            <a href="index.html">
+                <span>Beranda</span>
+            </a>
+        </div>
+        <div class="item-header">
+            <a href="tentang.html">
+                <span>Tentang</span>
+            </a>
+        </div>
+        <div class="item-header">
+            <a href="menu.html">
+                <span>Menu</span>
+            </a>
+        </div>
+        <div class="item-header">
+            <a href="gallery.html">
+                <span>Galeri</span>
+            </a>
+        </div>
+        <div class="item-header">
+            <a href="https://api.whatsapp.com/send?phone=628111575629&text=Halo,%20saya%20ingin%20membuat%20pesanan%20reservasi%20di%20Botram%20Resto%20and%20Cafe" target="_blank">
+                <span>Reservasi</span>
+            </a>
         </div>
     </nav>
 
@@ -32,7 +44,7 @@
     <div class="container-hero">
         <div class="row">
             <div class="column hero-img">
-                <img src="img/hero_1.svg">
+                <!-- <img src="img/hero_1_debug.svg"> -->
             </div>
             <div class="column hero-text">
                 <h1>Nyambel ala<br>BOTRAM RESTO</h1>
@@ -51,48 +63,74 @@
     </div>
 
     <!-- Menu Item -->
-    <div class="container">
-        <div class="menu">
-            <a href="menu.html#nasi">
-                <div class="item-menu">
-                    <img src="img/icon_nasi.png" alt="nasi">
-                    <h4>Nasi</h4>
-                </div>
-            </a>
-            <a href="menu.html#lauk">
-                <div class="item-menu">
-                    <img src="img/icon_lauk.png" alt="nasi">
-                    <h4>Lauk</h4>
-                </div>
-            </a>
-            <a href="menu.html#sambal-dan-lalapan">
-                <div class="item-menu">
-                    <img src="img/icon_lalap.png" alt="nasi">
-                    <h4>Lalap</h4>
-                </div>
-            </a>
-            <a href="menu.html#sambal-dan-lalapan">
-                <div class="item-menu">
-                    <img src="img/icon_sambal.png" alt="nasi">
-                    <h4>Sambal</h4>
-                </div>
-            </a>
-            <a href="menu.html#minuman-dingin">
-                <div class="item-menu">
-                    <img src="img/icon_teh.png" alt="nasi">
-                    <h4>Teh</h4>
-                </div>
-            </a>
-            <a href="menu.html#minuman-panas">
-                <div class="item-menu">
-                    <img src="img/icon_kopi.png" alt="nasi">
-                    <h4>Kopi</h4>
-                </div>
-            </a>
 
+    <div class="container home">
+        <div class="menu">
+            <div class="quick-menu">
+                <a href="menu.html#nasi">
+                    <div class="quick-menu-item">
+                        <img src="img/menu/nasi_putih.jpeg" alt="">
+                        <p>Nasi</p>
+                    </div>
+                </a>
+                <a href="menu.html#lauk">
+                    <div class="quick-menu-item">
+                        <img src="img/menu/ayam_rica_rica.jpeg" alt="">
+                        <p>Lauk</p>
+                    </div>
+                </a>
+                <a href="menu.html#sambal-dan-lalapan">
+                    <div class="quick-menu-item">
+                        <img src="img/menu/lalapan.jpg" alt="">
+                        <p>Lalap</p>
+                    </div>
+                </a>
+                <a href="menu.html#sambal-dan-lalapan">
+                    <div class="quick-menu-item">
+                        <img src="img/menu/sambal_terasi.jpg" alt="">
+                        <p>Sambal</p>
+                    </div>
+                </a>
+                <a href="menu.html#minuman-dingin">
+                    <div class="quick-menu-item">
+                        <img src="img/menu/hot_lemon_tea.jpg" alt="">
+                        <p>Teh</p>
+                    </div>
+                </a>
+                <a href="menu.html#minuman-panas">
+                    <div class="quick-menu-item">
+                        <img src="img/menu/espresso.jpg" alt="">
+                        <p>Kopi</p>
+                    </div>
+                </a>
+            </div>
             <div>
-                <a href="reservasi.html">
-                    <button class="btn-order" onclick=""><h3>BUAT PESANAN</h3></button>
+                <a href="https://api.whatsapp.com/send?phone=628111575629&text=Halo,%20saya%20ingin%20membuat%20pesanan%20reservasi%20di%20Botram%20Resto%20and%20Cafe" target="_blank">
+                    <button class="btn-order"><h3>BUAT PESANAN</h3></button>
+                </a>
+            </div>
+        </div>
+
+        <div class="quick-gallery">
+            <div class="container-slider">
+                <div class="wrapper-slider">
+                    <img src="img/carousel-home-2.jpg">
+                    <img src="img/carousel-home-1.jpg">
+                    <!-- <img src="https://images5.alphacoders.com/343/thumb-1920-343645.jpg">
+                    <img src="https://cdn.wallpapersafari.com/24/98/dwMtqD.jpg"> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="our-location">
+            <h1>Our Location</h1>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.1937644139086!2d106.92917696478584!3d-6.917474584457787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e684964a39788cb%3A0xac7ab5bfcf5c6feb!2sbotram%20resto!5e0!3m2!1sid!2sid!4v1652536783393!5m2!1sid!2sid"
+                width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div>
+                <a href="https://goo.gl/maps/2JxBH8R2MnJbsSjo6" target="_blank">
+                    <button class="btn-order open-maps">Buka di Maps</button>
                 </a>
             </div>
         </div>
