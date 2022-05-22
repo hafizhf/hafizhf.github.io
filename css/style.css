@@ -116,11 +116,11 @@ a {
     padding: 10px 30px;
 }
 
-/* .active span {
+.active span {
     background-color: var(--main-color);
     border-radius: 100px;
     color: var(--review-background-color);
-} */
+}
 
 .item-header span:hover {
     background-color: var(--main-color);
@@ -787,12 +787,26 @@ img.hero-tentang {
 
 /* Revisi */
 
+.menu1 { grid-area: menu1; }
+.menu2 { grid-area: menu2; }
+.menu3 { grid-area: menu3; }
+.menu4 { grid-area: menu4; }
+.menu5 { grid-area: menu5; }
+.menu6 { grid-area: menu6; }
+
 .quick-menu {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-column-gap: 40px;
     grid-row-gap: 40px;
-    margin: 50px 200px;
+    margin: 50px 200px; */
+
+    display: grid;
+    grid-template-areas:
+        'menu1 menu2 menu3'
+        'menu4 menu5 menu6';
+    gap: 40px;
+    margin: 50px 15vh;
 }
 
 .quick-menu-item {
