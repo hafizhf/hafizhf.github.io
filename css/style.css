@@ -116,11 +116,11 @@ a {
     padding: 10px 30px;
 }
 
-.active span {
+/* .active span {
     background-color: var(--main-color);
     border-radius: 100px;
     color: var(--review-background-color);
-}
+} */
 
 .item-header span:hover {
     background-color: var(--main-color);
@@ -190,10 +190,10 @@ a {
 }
 
 .hero-img {
-    height: 790px;
+    height: 820px;
     /* width: 30%; */
     /* width: 85vh; */
-    width: 40%;
+    width: 33%;
     overflow: visible;
     
     background-image: url(../img/hero_1_debug.svg);
@@ -295,7 +295,7 @@ a {
 
 .menu {
     /* background-color: coral; */
-    padding: 30px 70px;
+    padding: 30px 100px;
     text-align: center;
     align-items: center;
 
@@ -789,10 +789,10 @@ img.hero-tentang {
 
 .quick-menu {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
     grid-column-gap: 40px;
     grid-row-gap: 40px;
-    margin: 50px 120px;
+    margin: 50px 200px;
 }
 
 .quick-menu-item {
